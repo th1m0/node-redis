@@ -1,6 +1,6 @@
-import { RedisModules, RedisScripts } from 'thiimoredisclient/lib/commands';
-import RedisClient, { RedisClientOptions, RedisClientType } from 'thiimoredisclient/lib/client';
-import RedisCluster, { RedisClusterOptions, RedisClusterType } from 'thiimoredisclient/lib/cluster';
+import { RedisModules, RedisScripts } from '@thiimo/redisclient/lib/commands';
+import RedisClient, { RedisClientOptions, RedisClientType } from '@thiimo/redisclient/lib/client';
+import RedisCluster, { RedisClusterOptions, RedisClusterType } from '@thiimo/redisclient/lib/cluster';
 import { RedisServerDockerConfig, spawnRedisServer, spawnRedisCluster } from './dockers';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';

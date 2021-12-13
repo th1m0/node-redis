@@ -1,6 +1,6 @@
 {
-  "name": "thiimoredisjson",
-  "version": "1.0.1",
+  "name": "@thiimo/redisjson",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "peerDependencies": {
-    "thiimoredisclient": "^1.0.0"
+    "@thiimo/redisclient": "^1.0.0"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
@@ -20,5 +20,10 @@
     "source-map-support": "^0.5.21",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
-  }
+  },
+  "description": "This package provides support for the [RedisJSON](https://redisjson.io) module, which adds JSON as a native data type to Redis.  It extends the [Node Redis client](https://github.com/redis/node-redis) to include functions for each of the RedisJSON commands.",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": ""
 }

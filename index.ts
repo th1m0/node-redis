@@ -1,12 +1,12 @@
-import { createClient as _createClient, createCluster as _createCluster, RedisClientOptions, RedisClientType, RedisClusterOptions, RedisClusterType } from 'thiimoredisclient';
-import { RedisScripts } from 'thiimoredisclient/dist/lib/commands';
-import RedisJSON from 'thiimoredisjson';
-import RediSearch from 'thiimoredissearch';
+import { createClient as _createClient, createCluster as _createCluster, RedisClientOptions, RedisClientType, RedisClusterOptions, RedisClusterType } from '@thiimo/redisclient';
+import { RedisScripts } from '@thiimo/redisclient/dist/lib/commands';
+import RedisJSON from '@thiimo/redisjson';
+import RediSearch from '@thiimo/redissearch';
 
-export * as redisClient from 'thiimoredisclient';
-export * as redisJson from 'thiimoredisjson';
-export * as redisSearch from 'thiimoredissearch';
-export { RedisSocketOptions } from 'thiimoredisclient/dist/lib/client/socket';
+export * as redisClient from '@thiimo/redisclient';
+export * as redisJson from '@thiimo/redisjson';
+export * as redisSearch from '@thiimo/redissearch';
+export { RedisSocketOptions } from '@thiimo/redisclient/dist/lib/client/socket';
 
 const modules =  {
     json: RedisJSON,

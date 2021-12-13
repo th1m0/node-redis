@@ -2,7 +2,7 @@
   "name": "@thiimo/redis",
   "author": "thiimo <thimosietsma@gmail.com>",
   "description": "A modern, high performance Redis client",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -19,9 +19,9 @@
     "build-all": "npm run build:client && npm run build:test-utils && npm run build:modules && npm run build"
   },
   "dependencies": {
-    "thiimoredisclient": "^1.0.1",
-    "thiimoredisjson": "^1.0.1",
-    "thiimoredissearch": "^1.0.1"
+    "@thiimo/redisclient": "^1.0.2",
+    "@thiimo/redisjson": "^1.0.2",
+    "@thiimo/redissearch": "^1.0.3"
   },
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",

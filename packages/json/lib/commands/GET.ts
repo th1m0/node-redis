@@ -1,4 +1,4 @@
-import { pushVerdictArguments } from 'thiimoredisclient/dist/lib/commands/generic-transformers';
+import { pushVerdictArguments } from '@thiimo/redisclient/dist/lib/commands/generic-transformers';
 
 export const FIRST_KEY_INDEX = 1;
 

@@ -19,8 +19,8 @@ import * as MRANGE from './MRANGE';
 import * as MRANGE_WITHLABELS from './MRANGE_WITHLABELS';
 import * as MREVRANGE from './MREVRANGE';
 import * as MREVRANGE_WITHLABELS from './MREVRANGE_WITHLABELS';
-import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
-import { pushVerdictArguments } from 'thiimoredisclient/lib/commands/generic-transformers';
+import { RedisCommandArguments } from '@thiimo/redisclient/dist/lib/commands';
+import { pushVerdictArguments } from '@thiimo/redisclient/lib/commands/generic-transformers';
 
 export default {
     ADD,

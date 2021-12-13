@@ -1,4 +1,4 @@
-import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
+import { RedisCommandArguments } from '@thiimo/redisclient/dist/lib/commands';
 import { RangeOptions, Timestamp, pushRangeArguments, SampleRawReply, SampleReply, transformRangeReply } from '.';
 
 export const FIRST_KEY_INDEX = 1;

@@ -1,4 +1,4 @@
-# thiimoredisjson
+# @thiimo/redisjson
 
 This package provides support for the [RedisJSON](https://redisjson.io) module, which adds JSON as a native data type to Redis.  It extends the [Node Redis client](https://github.com/redis/node-redis) to include functions for each of the RedisJSON commands.
 

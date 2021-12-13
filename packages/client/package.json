@@ -1,6 +1,7 @@
 {
-  "name": "thiimoredisclient",
-  "version": "1.0.1",
+  "name": "@thiimo/redisclient",
+  "author": "thiimo <thimosietsma@gmail.com>",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -41,10 +42,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/redis/node-redis.git"
+    "url": "git://github.com/th1m0/node-redis.git"
   },
   "bugs": {
-    "url": "https://github.com/redis/node-redis/issues"
+    "url": "https://github.com/th1m0/node-redis/issues"
   },
-  "homepage": "https://github.com/redis/node-redis/tree/master/packages/client"
+  "homepage": "https://github.com/th1m0/node-redis/tree/master/packages/client",
+  "description": "The source code and documentation for this package are in the main [node-redis](https://github.com/th1m0/node-redis) repo.",
+  "directories": {
+    "lib": "lib"
+  }
 }

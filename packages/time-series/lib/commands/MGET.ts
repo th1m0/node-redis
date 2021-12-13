@@ -1,4 +1,4 @@
-import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
+import { RedisCommandArguments } from '@thiimo/redisclient/dist/lib/commands';
 import { Filter, pushFilterArgument, RawLabels, SampleRawReply, SampleReply, transformSampleReply } from '.';
 
 export const IS_READ_ONLY = true;

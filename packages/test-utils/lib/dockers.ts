@@ -1,8 +1,8 @@
 import { createConnection } from 'net';
 import { once } from 'events';
-import { RedisModules, RedisScripts } from 'thiimoredisclient/lib/commands';
-import RedisClient, { RedisClientType } from 'thiimoredisclient/lib/client';
-import { promiseTimeout } from 'thiimoredisclient/lib/utils';
+import { RedisModules, RedisScripts } from '@thiimo/redisclient/lib/commands';
+import RedisClient, { RedisClientType } from '@thiimo/redisclient/lib/client';
+import { promiseTimeout } from '@thiimo/redisclient/lib/utils';
 import * as path from 'path';
 import { promisify } from 'util';
 import { exec } from 'child_process';
