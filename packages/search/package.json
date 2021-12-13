@@ -1,6 +1,6 @@
 {
-  "name": "thiimoredissearch",
-  "version": "1.0.1",
+  "name": "@thiimo/redissearch",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "peerDependencies": {
-    "thiimoredisclient": "^1.0.0"
+    "@thiimo/redisclient": "^1.0.0"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",

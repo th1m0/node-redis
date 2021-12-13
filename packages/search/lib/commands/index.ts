@@ -26,7 +26,7 @@ import * as SUGLEN from './SUGLEN';
 import * as SYNDUMP from './SYNDUMP';
 import * as SYNUPDATE from './SYNUPDATE';
 import * as TAGVALS from './TAGVALS';
-import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
+import { RedisCommandArguments } from '@thiimo/redisclient/dist/lib/commands';
 
 export default {
     _LIST,

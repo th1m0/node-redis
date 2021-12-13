@@ -1,5 +1,5 @@
-import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
-import { pushVerdictArguments } from 'thiimoredisclient/dist/lib/commands/generic-transformers';
+import { RedisCommandArguments } from '@thiimo/redisclient/dist/lib/commands';
+import { pushVerdictArguments } from '@thiimo/redisclient/dist/lib/commands/generic-transformers';
 
 export function transformArguments(dictionary: string, term: string | Array<string>): RedisCommandArguments {
     return pushVerdictArguments(['FT.DICTADD', dictionary], term);

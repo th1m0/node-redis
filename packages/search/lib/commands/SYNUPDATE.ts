@@ -1,5 +1,5 @@
-import { pushVerdictArguments } from 'thiimoredisclient/dist/lib/commands/generic-transformers';
-import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
+import { pushVerdictArguments } from '@thiimo/redisclient/dist/lib/commands/generic-transformers';
+import { RedisCommandArguments } from '@thiimo/redisclient/dist/lib/commands';
 
 interface SynUpdateOptions {
     SKIPINITIALSCAN?: true;
