@@ -1,5 +1,5 @@
 {
-  "name": "@node-redis/time-series",
+  "name": "@thiimoredis/time-series",
   "version": "1.0.0-rc.0",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -9,11 +9,11 @@
     "build": "tsc"
   },
   "peerDependencies": {
-    "@node-redis/client": "^1.0.0"
+    "thiimoredisclient": "^1.0.0"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
-    "@node-redis/test-utils": "*",
+    "@thiimoredis/test-utils": "*",
     "@types/node": "^16.11.7",
     "nyc": "^15.1.0",
     "release-it": "^14.11.7",

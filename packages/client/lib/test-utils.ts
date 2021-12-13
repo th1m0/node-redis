@@ -1,4 +1,4 @@
-import TestUtils from '@node-redis/test-utils';
+import TestUtils from '@thiimoredis/test-utils';
 import { SinonSpy } from 'sinon';
 import { promiseTimeout } from './utils';
 

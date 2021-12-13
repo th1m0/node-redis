@@ -1,4 +1,4 @@
-import { pushOptionalVerdictArgument } from '@node-redis/client/dist/lib/commands/generic-transformers';
+import { pushOptionalVerdictArgument } from 'thiimoredisclient/dist/lib/commands/generic-transformers';
 import { RedisSearchLanguages, PropertyName } from '.';
 
 export enum SchemaFieldTypes {

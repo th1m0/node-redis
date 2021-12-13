@@ -1,5 +1,5 @@
-import { RedisCommandArguments } from '@node-redis/client/dist/lib/commands';
-import { pushVerdictArgument, transformReplyTuples, TuplesObject } from '@node-redis/client/dist/lib/commands/generic-transformers';
+import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
+import { pushVerdictArgument, transformReplyTuples, TuplesObject } from 'thiimoredisclient/dist/lib/commands/generic-transformers';
 import { PropertyName, pushArgumentsWithLength, pushSortByArguments, SortByProperty } from '.';
 
 export enum AggregateSteps {

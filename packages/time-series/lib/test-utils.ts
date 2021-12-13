@@ -1,4 +1,4 @@
-import TestUtils from '@node-redis/test-utils';
+import TestUtils from '@thiimoredis/test-utils';
 import TimeSeries from '.';
 
 export default new TestUtils({

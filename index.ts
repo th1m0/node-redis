@@ -1,20 +1,24 @@
-import { createClient as _createClient, createCluster as _createCluster, RedisClientOptions, RedisClientType, RedisClusterOptions, RedisClusterType } from '@node-redis/client';
-import { RedisScripts } from '@node-redis/client/dist/lib/commands';
-import RedisJSON from '@node-redis/json';
-import RediSearch from '@node-redis/search';
+import { createClient as _createClient, createCluster as _createCluster, RedisClientOptions, RedisClientType, RedisClusterOptions, RedisClusterType } from 'thiimoredisclient';
+import { RedisScripts } from 'thiimoredisclient/dist/lib/commands';
+import RedisJSON from 'thiimoredisjson';
+import RediSearch from 'thiimoredissearch';
 
-export * from '@node-redis/client';
-export * from '@node-redis/json';
-export * from '@node-redis/search';
+export * as redisClient from 'thiimoredisclient';
+export * as redisJson from 'thiimoredisjson';
+export * as redisSearch from 'thiimoredissearch';
+export { RedisSocketOptions } from 'thiimoredisclient/dist/lib/client/socket';
 
 const modules =  {
     json: RedisJSON,
     ft: RediSearch
 };
 
+export declare type ClientOptions<S extends RedisScripts = Record<string, never>> = Omit<RedisClientOptions<never, S>, 'modules'>
+export declare type RedisClient<S extends RedisScripts = Record<string, never>> = RedisClientType<typeof modules, S>
+
 export function createClient<S extends RedisScripts = Record<string, never>>(
-    options?: Omit<RedisClientOptions<never, S>, 'modules'>
-): RedisClientType<typeof modules, S> {
+    options?: ClientOptions<S>
+): RedisClient<S> {
     return _createClient({
         ...options,
         modules

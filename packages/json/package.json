@@ -1,6 +1,6 @@
 {
-  "name": "@node-redis/json",
-  "version": "1.0.0-rc.0",
+  "name": "thiimoredisjson",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -9,11 +9,11 @@
     "build": "tsc"
   },
   "peerDependencies": {
-    "@node-redis/client": "^1.0.0"
+    "thiimoredisclient": "^1.0.0"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
-    "@node-redis/test-utils": "*",
+    "@thiimoredis/test-utils": "*",
     "@types/node": "^16.11.10",
     "nyc": "^15.1.0",
     "release-it": "^14.11.8",

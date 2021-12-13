@@ -1,4 +1,4 @@
-import { RedisCommandArguments } from '@node-redis/client/dist/lib/commands';
+import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
 import { MRangeOptions, Timestamp, pushMRangeArguments, Filter } from '.';
 
 export const IS_READ_ONLY = true;

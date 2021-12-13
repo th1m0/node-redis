@@ -1,4 +1,4 @@
-import { RedisCommandArguments } from '@node-redis/client/dist/lib/commands';
+import { RedisCommandArguments } from 'thiimoredisclient/dist/lib/commands';
 import { Timestamp, transformTimestampArgument } from '.';
 
 export const FIRTS_KEY_INDEX = 1;
